@@ -1,0 +1,78 @@
+/* General Styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #252525;
+  color: #f4f4f4;
+}
+
+/* Navbar Styling */
+#navBar {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+.cart {
+  cursor: pointer;
+}
+
+.cart i {
+  font-size: 1.5rem;
+}
+
+/* Header Styling */
+#header {
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #444;
+}
+
+/* Showcase Styling */
+#showcase {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  background-color: #555;
+  margin: 1rem;
+  box-shadow: 2px 2px 12px #000;
+}
+
+.card-img-top {
+  max-width: 100%;
+  height: auto;
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+.btn-primary {
+  background-color: #3498db;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #2980b9;
+}
+
+/* Footer Styling */
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #444;
+}
+
+/* Media Query for Small Screens */
+@media (max-width: 768px) {
+  #showcase {
+    flex-direction: column;
+  }
+}
+
+
